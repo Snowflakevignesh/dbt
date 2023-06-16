@@ -4,7 +4,7 @@ with orders as (
     
     select * from {{ ref('orders') }} 
 
-),
+)
 
  final as (
 
